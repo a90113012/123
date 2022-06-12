@@ -1,0 +1,258 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body{font-family: 'Noto Sans TC', sans-serif;}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #000C7D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.8;
+}
+.快捷 ul li {
+    display: inline;
+    margin-right: 12px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+ul li a:link  {
+    color: #00C9FF;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.小標題 h3 {
+    margin-left: 12px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+ul li a:hover  {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(1.png);
+
+}
+header h1 {
+    color: #FFE6BF;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+header a:link  {
+    background-color: #270000;
+    padding-top: 10px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+    padding-left: 34px;
+    color: #F3F3F3;
+    -webkit-transition: all 0.3s ease-in-out 1s;
+    -o-transition: all 0.3s ease-in-out 1s;
+    transition: all 0.3s ease-in-out 1s;
+}
+header a:hover  {    font-size: 30px;
+    background-color: #FF0000;
+    padding-top: 10px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+    padding-left: 34px;
+    color: #F3F3F3;
+}article {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.認識 {
+    background-color: #FDF1FF;
+    text-align: center;
+}
+body main article {
+}
+
+.小標題1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.內文1 {
+    flex: 1;
+    font-size: 25px;
+    line-height: 33px;
+}
+main article p {
+    text-align: center;
+
+}
+
+.圖 {
+    flex: 1;
+    background-image: url(69278.jpg);
+    background-position: center center;
+    height: 297px;
+    border-radius: 90px;
+    background-size: cover;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    
+	
+}
+
+
+article h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+.fgo {
+    background-color: #3F57A0;
+    color: #AEA500;
+}
+.照片 {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    
+}
+.遊戲照片 {
+    background-color: #FED1D1;
+    flex-wrap: wrap;
+}
+.遊戲照片 .照片 .封面 {
+    flex: 1;
+    background-image: url(69264.jpg);
+    background-size: cover;
+    padding: 5;
+    margin: 5px;
+    height: 300px;
+    background-position: 51% 0%;
+    align-items: flex-end;
+    border-radius: 20px;
+}.遊戲照片 .照片 .介面 {
+    flex: 1;
+    margin: 5px;border-radius: 20px;
+    background-image: url(69279.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: 18% 0%;
+}
+.遊戲照片 .照片 .劇情{
+    margin: 5px;
+    flex: 1;border-radius: 20px;
+    background-image: url(69266.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: 15% 0%;
+}
+.照片 .封面 .遊戲主介面 {
+    background-color: #00034A;
+    opacity: 0.6;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+
+.遊戲照片 .照片 .抽卡{border-radius: 20px;
+    margin: 5px;
+    flex: 1;
+    background-image: url(69267.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: 38% 0%;
+}
+.遊戲照片 .照片 .三條線 {
+    flex: 1;
+    margin: 5px;border-radius: 20px;
+    background-image: url(69268.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 45% 0%;
+}.遊戲照片 .照片 .強化{
+    flex: 1;border-radius: 20px;
+    margin: 5px;
+    background-image: url(69281.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 47% 32%;
+}
+.照片 .介面 .戰鬥 {
+    background-color: #00034A;
+    opacity: 0.8;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+.照片 .劇情 .金石 {
+    background-color: #00034A;
+    opacity: 0.8;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+.照片 .強化 .一例 {
+    background-color: #00034A;
+    opacity: 0.8;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+.照片 .抽卡 .殂者 {
+    background-color: #00034A;
+    opacity: 0.8;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+.照片 .三條線 .盤資 {
+    background-color: #00034A;
+    opacity: 0.8;
+    height: 30px;
+    line-height: 30px;
+    color: #FDFDFD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+
+
+}
+
+
+
+
+.圖:hover {
+    transform: rotate(3deg) scale(1.3)
+}
